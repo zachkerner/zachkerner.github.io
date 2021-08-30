@@ -7,17 +7,17 @@ set -e
 npm run build
 cp -r 2020 dist
 cp CNAME dist
-# cp assets/Katherine_Beck_Resume.pdf dist/assets
+cp assets/Katherine_Beck_Resume_v2.pdf dist/assets
 
 # navigate into the build output directory
-# cd dist
+cd dist
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
-# git init
-# git add -A
-# git commit -m 'deploy'
+git init
+git add -A
+git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
